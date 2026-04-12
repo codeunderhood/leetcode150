@@ -1,5 +1,5 @@
 # 📊 Array vs Vector in C++ (Complete Comparison)
-# Feature	Array - (int arr[9])	- Vector (vector<int>)
+ Feature	Array - (int arr[9])	- Vector (vector<int>)
 ## Memory type	- Stack memory -	Heap memory
 ## Size	 - Fixed at compile time	- Dynamic (can grow/shrink)
 ## Performance	-  Faster access -	Slightly slower (extra overhead)
