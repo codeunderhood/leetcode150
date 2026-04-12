@@ -3,11 +3,17 @@
 🔹 Memory type	- Stack memory -	Heap memory
 
 🔹 Size	 - Fixed at compile time	- Dynamic (can grow/shrink)
+
 🔹 Performance	-  Faster access -	Slightly slower (extra overhead)
+
 🔹 Memory overhead -	Very low -	Higher (size, capacity tracking)
+
 🔹 Cache locality	- Excellent -	Good but slightly worse
+
 🔹 Resizing -	Not possible	- Automatic resizing
+
 🔹 Initialization	- Simple	- Needs constructor / runtime setup
+
 🔹 Safety -	No bounds checking	- Optional bounds checking (at())
 
 # Best use case	- Fixed-size problems -	Dynamic-size problems
