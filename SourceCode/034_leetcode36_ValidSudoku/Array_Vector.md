@@ -16,8 +16,8 @@
 
 🔹 Safety -	No bounds checking	- Optional bounds checking (at())
 
-# Best use case	- Fixed-size problems -	Dynamic-size problems
-# Example usage	- Sudoku, matrices (fixed) -	Lists, graphs, streams
+### Best use case	- Fixed-size problems -	Dynamic-size problems
+### Example usage	- Sudoku, matrices (fixed) -	Lists, graphs, streams
 
 
 # 🧠 Why ARRAY is used in THIS Sudoku problem?
