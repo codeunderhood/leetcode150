@@ -32,4 +32,4 @@ So physically it stores:
 8 rows
 2 integers per row
 👉 total = 16 integers
-a few integer variables (m, n, row, col, count)
+and few integer variables (m, n, row, col, count)
