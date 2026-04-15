@@ -27,5 +27,9 @@ No extra matrix is created. We modify the board in-place using encoding:
 
 We only use:
 
-direction array (fixed size 8)
+direction array (fixed size 8x2 integers):
+So physically it stores:
+8 rows
+2 integers per row
+👉 total = 16 integers
 a few integer variables (m, n, row, col, count)
