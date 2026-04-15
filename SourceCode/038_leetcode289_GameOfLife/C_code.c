@@ -14,6 +14,9 @@ When counting neighbors, treat:
 #include <stdio.h>
 #include <stdlib.h>
 
+// directions --> 8 directions. directions[0] --> first direction, direction[7] --> 8th direction
+// directions[1] --> {-1,0}
+// directions[1][0] = {-1} , directions[1][1] = {0} 
 int directions[8][2] = {
     {-1, -1}, {-1, 0}, {-1, 1},
     {0, -1},           {0, 1},
@@ -24,12 +27,12 @@ int countLiveNeighbors(int** board, int m, int n, int row, int col) {
     int count = 0;
 
     for (int d = 0; d < 8; d++) {
-        int newRow = row + directions[d][0];
-        int newCol = col + directions[d][1];
+        int newRow = row + directions[d][0]; // Example : d = 1 --> directions[1][0] = {-1}
+        int newCol = col + directions[d][1]; // Example : d = 1 --> directions[1][1] = {0} 
 
         if (newRow >= 0 && newRow < m && newCol >= 0 && newCol < n) {
             if (board[newRow][newCol] == 1 || board[newRow][newCol] == 2) {
-                count++;
+                count++; // 1,2 --> originally live
             }
         }
     }
@@ -60,10 +63,11 @@ void gameOfLife(int** board, int boardSize, int* boardColSize) {
     }
 
     // Second pass: finalize states
+    // mark encoded values with expected values .  
     for (int row = 0; row < m; row++) {
         for (int col = 0; col < n; col++) {
-            if (board[row][col] == 2) board[row][col] = 0;
-            else if (board[row][col] == 3) board[row][col] = 1;
+            if (board[row][col] == 2) board[row][col] = 0; // Replace 2 with 0(next state --> dead)
+            else if (board[row][col] == 3) board[row][col] = 1; // Replace 3 with 1(next state --> live).
         }
     }
 }
