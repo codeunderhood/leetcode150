@@ -19,8 +19,13 @@ O(m + n)
 
 Why?
 We use fixed-size arrays:
+#### C++
 vector<int> need(128)
 vector<int> window(128)
+#### C
+int need[128];
+int window[128];
+
 Size does NOT depend on input length
 
 So:
