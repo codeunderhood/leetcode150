@@ -1,7 +1,7 @@
 # 🧩 One-line summary
 ## 🟦 Stock I: Max difference between two points
 ## 🟩 Stock II: Sum of all increasing slopes
-## ==================================================================
+## ============================================
 
 This question BuySellStock_2 feels confusing at first because it looks like you need to decide the best single buy and sell point. But the key twist is:
 
@@ -124,7 +124,7 @@ just adding every positive difference between consecutive days
 
 “Total profit is the sum of all increases between consecutive days.”
 
-## ========================================================================================
+## =======================================
 🧠 What the rule actually allows
 
 “You can buy and sell multiple times, but you can hold at most one stock.”
@@ -246,7 +246,7 @@ So:
 
 local gains = global optimal answer
 
-## ========================================================================================
+## =======================================
 Here’s a clear comparison between Stock I (Best Time to Buy and Sell Stock) and Stock II (multiple transactions allowed) so you can see exactly how the rules change the strategy.
 
 # 📊 Stock I vs Stock II
