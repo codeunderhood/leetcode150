@@ -7,19 +7,29 @@ bool canJump(vector<int>& nums) {
 
     for (int i = 0; i < nums.size(); i++) {
 
-        // if we cannot even reach this index
+        cout << "i = " << i << " --> ";
+
+        // if current index is beyond maxReach, we are stuck
         if (i > maxReach) {
+            cout << "cant reach till end" << endl;
             return false;
         }
 
-        // update farthest reachable index
+        // update farthest reachable index from this position
         int reachFromHere = i + nums[i];
+
+        cout << "reachFromHere : " << reachFromHere;
+
         if (reachFromHere > maxReach) {
             maxReach = reachFromHere;
+            cout << " <--> maxReach : " << maxReach;
         }
 
-        // early exit
+        cout << endl;
+
+        // early exit if we already can reach end
         if (maxReach >= nums.size() - 1) {
+            cout << "can reach till end" << endl;
             return true;
         }
     }
@@ -28,9 +38,26 @@ bool canJump(vector<int>& nums) {
 }
 
 int main() {
-    vector<int> nums = {4,1,2,0,2,0,1,3,2,1,4};
 
-    cout << (canJump(nums) ? "true" : "false") << endl;
+    // ================= SUCCESS CASE =================
+    cout << "\n===== SUCCESS CASE =====\n";
+    vector<int> success = {4,1,2,0,2,0,1,3,2,1,4};
+
+    if (canJump(success)) {
+        cout << "true" << endl;
+    } else {
+        cout << "false" << endl;
+    }
+
+    // ================= FAILURE CASE =================
+    cout << "\n===== FAILURE CASE =====\n";
+    vector<int> fail = {3,2,1,0,4};
+
+    if (canJump(fail)) {
+        cout << "true" << endl;
+    } else {
+        cout << "false" << endl;
+    }
 
     return 0;
 }
