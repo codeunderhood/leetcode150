@@ -1,5 +1,5 @@
 # ⚔️ Jump Game I vs Jump Game II
-## Feature	--> 🟦 Jump Game I	--> 🟨 Jump Game II
+#### Feature	--> 🟦 Jump Game I	--> 🟨 Jump Game II
 ## Problem Type -->	Can you reach the last index?	 --> Minimum jumps to reach last index
 ## Goal	Return  -->	true/false	 -->	Return minimum number of jumps
 ## Decision vs Optimization  -->		Decision problem	 -->	Optimization problem
