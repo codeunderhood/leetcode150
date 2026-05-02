@@ -2,6 +2,12 @@
 ## 🟦 Stock I: Max difference between two points
 ## 🟩 Stock II: Sum of all increasing slopes
 ## ============================================
+## | Problem             | Strategy                     |
+## | ------------------- | ---------------------------- |
+## | Stock I             | 1 transaction only           |
+## | Stock II            | sum all upward moves         |
+## | Stock with cooldown | DP required (state tracking) | --> need to check this later
+## ============================================
 
 This question BuySellStock_2 feels confusing at first because it looks like you need to decide the best single buy and sell point. But the key twist is:
 
