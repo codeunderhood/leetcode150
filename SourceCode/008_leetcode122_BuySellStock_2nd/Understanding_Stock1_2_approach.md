@@ -1,4 +1,9 @@
-This question feels confusing at first because it looks like you need to decide the best single buy and sell point. But the key twist is:
+# 🧩 One-line summary
+## 🟦 Stock I: Max difference between two points
+## 🟩 Stock II: Sum of all increasing slopes
+## ==================================================================
+
+This question BuySellStock_2 feels confusing at first because it looks like you need to decide the best single buy and sell point. But the key twist is:
 
 You are allowed to buy and sell multiple times, as long as you never hold more than one stock at a time.
 
