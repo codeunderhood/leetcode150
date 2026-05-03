@@ -17,17 +17,20 @@ GetRandom in O(1) with equal probability
 🔹 insert(10)
 Array:
 [10]
+
 Map:
 10 → 0  
 🔹 insert(20)
 Array:
 [10, 20]
+
 Map:
 10 → 0  
 20 → 1  
 🔹 insert(30)
 Array:
 [10, 20, 30]
+
 Map:
 10 → 0  
 20 → 1  
@@ -35,6 +38,7 @@ Map:
 🔹 insert(40)
 Array:
 [10, 20, 30, 40]
+
 Map:
 10 → 0  
 20 → 1  
@@ -55,6 +59,7 @@ After swap:
 [10, 40, 30, 40]
 🔹 Step 4: Update map for moved element
 40 → index 1
+
 Updated map:
 10 → 0  
 40 → 1  
@@ -67,6 +72,7 @@ remove 20
 #### 🔹 FINAL STATE AFTER REMOVE
 📦 Array:
 [10, 40, 30]
+
 🗺 Map:
 10 → 0  
 40 → 1  
