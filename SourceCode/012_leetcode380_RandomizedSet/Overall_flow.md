@@ -23,32 +23,26 @@ Map:
 10 → 0
 
 🔹 insert(20)
-
 Array:
 [10, 20]
 
 Map:
-
 10 → 0  
 20 → 1  
 🔹 insert(30)
-
 Array:
 [10, 20, 30]
 
 Map:
-
-10 → 0  
-20 → 1  
-30 → 2  
+10 → 0
+20 → 1
+30 → 2
 🔹 insert(40)
-
 Array:
 [10, 20, 30, 40]
 
 Map:
-
-10 → 0  
+10 → 0
 20 → 1  
 30 → 2  
 40 → 3  
@@ -69,7 +63,6 @@ After swap:
 40 → index 1
 
 Updated map:
-
 10 → 0  
 40 → 1  
 30 → 2  
@@ -86,6 +79,7 @@ remove 20
 10 → 0  
 40 → 1  
 30 → 2  
+
 ## 🟩 GET RANDOM
 Pick random index → Return arr[index]
 🔹 Now array is:
