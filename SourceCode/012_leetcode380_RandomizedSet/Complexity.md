@@ -55,10 +55,4 @@ Stores mapping of each value to its position → O(n)
 
 Every inserted element is stored once in array and once in hashmap, so total space grows linearly with number of elements.
 
-🚀 Final Insight
 
-✔ Array → supports fast random access
-✔ HashMap → supports fast lookup
-✔ Together → guarantee O(1) operations
-
-👉 This trade-off of extra space enables optimal time performance.
