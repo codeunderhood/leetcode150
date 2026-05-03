@@ -18,28 +18,28 @@ GetRandom in O(1) with equal probability
 Array:
 [10]
 Map:
-10 → 0
+10 → 0  
 🔹 insert(20)
 Array:
 [10, 20]
 Map:
-10 → 0
-20 → 1
+10 → 0  
+20 → 1  
 🔹 insert(30)
 Array:
 [10, 20, 30]
 Map:
-10 → 0
-20 → 1
-30 → 2
+10 → 0  
+20 → 1  
+30 → 2  
 🔹 insert(40)
 Array:
 [10, 20, 30, 40]
 Map:
-10 → 0
-20 → 1
-30 → 2
-40 → 3
+10 → 0  
+20 → 1  
+30 → 2  
+40 → 3  
 
 ## 🟥 REMOVE
 Find index → Swap with last → Pop → Update Map
@@ -56,9 +56,9 @@ After swap:
 🔹 Step 4: Update map for moved element
 40 → index 1
 Updated map:
-10 → 0
-40 → 1
-30 → 2
+10 → 0  
+40 → 1  
+30 → 2  
 🔹 Step 5: Remove last element
 Array becomes:
 [10, 40, 30]
@@ -68,9 +68,9 @@ remove 20
 📦 Array:
 [10, 40, 30]
 🗺 Map:
-10 → 0
-40 → 1
-30 → 2
+10 → 0  
+40 → 1  
+30 → 2  
 ## 🟩 GET RANDOM
 Pick random index → Return arr[index]
 🔹 Now array is:
