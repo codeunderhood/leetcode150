@@ -29,18 +29,18 @@ then subtract.
 
 Example:
 
-IV
-1 < 5
-→ 5 - 1
+IV  
+1 < 5  
+→ 5 - 1  
 ##### Case 2: Normal addition
 
 Otherwise add.
 
 Example:
 
-VI
-5 > 1
-→ 5 + 1
+VI  
+5 > 1  
+→ 5 + 1  
 
 
 # Why This Works
