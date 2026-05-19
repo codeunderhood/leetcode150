@@ -1,6 +1,3 @@
-Step by step strategy (# Step-by-Step Strategy)
-Why this works (# Why This Works)
-
 # Step-by-Step Strategy
 
 Suppose:
