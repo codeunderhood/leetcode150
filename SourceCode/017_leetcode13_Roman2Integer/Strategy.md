@@ -1,3 +1,4 @@
+# Topics in this document
 [Strategy](#step-by-step-strategy)  
 [Why this works](#why-this-works)  
 
@@ -48,7 +49,7 @@ Example:
 VI  
 5 > 1  
 → 5 + 1  
-
+[⬆ Back to Top](#topics-in-this-document)
 
 # Why This Works
 
@@ -61,3 +62,4 @@ Otherwise:
 Add value normally
 
 ##### This exactly follows Roman numeral rules.
+[⬆ Back to Top](#topics-in-this-document)
