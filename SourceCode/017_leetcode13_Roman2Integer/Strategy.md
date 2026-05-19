@@ -1,5 +1,10 @@
-[Strategy](#step-by-step-strategy)
-[Why this works](#why-this-works)
+[Strategy](#step-by-step-strategy)  
+[Why this works](#why-this-works)  
+
+
+
+
+    
 # Step-by-Step Strategy
 
 Suppose:
