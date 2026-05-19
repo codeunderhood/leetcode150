@@ -1,9 +1,9 @@
 # Complexity Topics 
 [1. ⚡ Time Complexity](#time-complexity):  
 Here, we explain how much efficient the algorithm is, in terms of, Time.  
-Try to understand, on increasing the input size, what will be the impact on algorithm execution time.
+Try to understand, on increasing the input size, what will be the impact on algorithm execution time.  
 [2. 🧠 Space Complexity](#space-complexity):  
-Here, we explain how much efficient the algorithm is, in terms of, Space.
+Here, we explain how much efficient the algorithm is, in terms of, Space.  
 Try to understand, on increasing the input size, what will be the impact on Space consumed by this algorithm.  
 
 
